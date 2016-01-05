@@ -182,9 +182,11 @@ echo '<tr><td>　人工知能が判定したあなたの性別　</td><td>'."　
 echo '</table>'; 
 echo '<p> </p>';
 echo '<p> </p>';
-echo '<pre>'.'\n※Facebookのプロフィールの顔写真を基に人工知能が年齢と性別を判定しています'; 
-echo '\n※Facebookのプロフィールに顔が正面を向いて写っていなければ判定できません'; 
-echo '\n※人工知能はIBMのAlchemyAPIを使用しています'.'</pre>';  
+echo '※Facebookのプロフィールの顔写真を基に年齢と性別を判定しています';
+echo '<br>';
+echo '※Facebookのプロフィール画像の顔が正面を向いていなければ判定できません';
+echo '<br>';
+echo '※人工知能はIBMのAlchemyAPIを使用しています';  
  
 }
 }
