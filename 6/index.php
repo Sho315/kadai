@@ -180,6 +180,10 @@ echo '<tr><th></th><th>　　結果　</th><th>　可能性(％)　</th></tr>';
 echo '<tr><td>　人工知能が判定したあなたの顔年齢　</td><td>'."　".'<b>'.$ageRange."歳".'</b>'."　".'</td><td>'."　".$ageScore."　".'</td></tr>';
 echo '<tr><td>　人工知能が判定したあなたの性別　</td><td>'."　".'<b>'.$gender.'</b>'."　".'</td><td>'."　".$genderScore."　".'</td></tr>';
 echo '</table>'; 
+echo '<p> </p>'; 
+echo '\n※Facebookのプロフィールの顔写真を基に人工知能が年齢と性別を判定しています'; 
+echo '\n※Facebookのプロフィールに顔が正面を向いて写っていなければ判定できません'; 
+echo '\n※人工知能はIBMのAlchemyAPIを使用しています';  
  
 }
 }
