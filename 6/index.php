@@ -58,7 +58,7 @@ echo <<<_HEADER_
     <div id = "container">
         <div id="login">
     
-    <title>Facebookログイン</title>
+    <title>人工知能による顔年齢判定アプリ</title>
     <style>
     #container{
         width:500px;
