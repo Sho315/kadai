@@ -49,9 +49,10 @@ if ($user) {
 
 //HTMLヘッダを表示
 echo <<<_HEADER_
-<html>
+<html prefix="og: http://ogp.me/ns#">
     <head>
         <meta content='text/html; charset=utf-8' http-equiv='content-type'>
+        <meta property="og:image" content="img/ai_2.png" />
         <link rel="stylesheet" href="http://bootswatch.com/cerulean/bootstrap.min.css">
     </head>
     <body>
